@@ -7,3 +7,4 @@ pydantic
 joblib
 xgboost
 pydantic
+python-whois
