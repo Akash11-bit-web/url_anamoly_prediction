@@ -1,8 +1,8 @@
 import streamlit as st
 import requests
 
-API_PREDICT = "http://localhost:8000/predict"
-API_INFO    = "http://localhost:8000/domain-info"
+API_PREDICT = "https://url-anamoly-prediction.onrender.com/predict"
+API_INFO    = "https://url-anamoly-prediction.onrender.com/domain-info"
 
 st.set_page_config(page_title="URL Anomaly Detector", page_icon="🔍", layout="centered")
 
