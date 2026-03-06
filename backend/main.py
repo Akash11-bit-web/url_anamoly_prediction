@@ -45,3 +45,7 @@ def predict(request: URLRequest):
 def domain_info(request: URLRequest):
     info = get_domain_info(request.url)
     return info
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 8000)))
