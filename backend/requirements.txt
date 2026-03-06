@@ -8,3 +8,4 @@ joblib
 xgboost
 pydantic
 python-whois
+tldextract
